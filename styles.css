@@ -1,0 +1,121 @@
+html {
+  overflow: scroll;
+  overflow-x: hidden;
+}
+
+::-webkit-scrollbar {
+  width: 0;
+  /* Remove scrollbar space */
+  background: transparent;
+  /* Optional: just make scrollbar invisible */
+}
+
+/* Optional: show position indicator in red */
+::-webkit-scrollbar-thumb {
+  background: #FF0000;
+}
+
+
+body{
+  margin: 0 0 0 0;
+}
+#home{
+  background-color: #011e11;
+  padding-bottom: 7.5rem;
+  padding-top:3.75rem;
+
+}
+.anchor{
+  text-decoration: none;
+  color: white;
+}
+.home-text{
+  color: #12ff46;
+  margin: 0 0 0 0;
+  padding: 3.125rem 3.125rem 3.125rem 3.125rem;
+
+
+}
+.home-head{
+  color:#ffffff;
+  padding: 2rem 3.125rem 3.125rem 3.125rem;
+  font-size: 3.5rem;
+  animation:
+    typing 1s steps(20, end) forwards;
+  }
+.place-order{
+  padding: 2rem 3.125rem 3.125rem 3.125rem;
+
+}
+.home-img{
+  position:relative;
+  left:2.5rem;
+  padding: 0.625rem 0.625rem 0.625rem 0.625rem;
+
+}
+#about{
+  padding:5rem 1.25rem 1.25rem 2.5rem;
+  background-color:#12ff46;
+
+}
+.about-txt{
+  font-size:1.25rem;
+}
+#what-work{
+  background-color: #011e11;
+  padding:5rem 1.25rem 1.25rem 2.5rem;
+
+
+}
+.what-work-txt{
+  text-align: center;
+  color: #12ff46;
+
+}
+.card-design{
+  padding: 3.125rem 3.125rem 3.125rem 3.125rem;
+  border-radius: 0;
+  position: relative;
+  left:4.375rem;
+
+}
+.card-body{
+  background-color: #12ff46;
+}
+.card-title{
+  text-align: center;
+  font-weight: bold;
+  color:black;
+
+}
+.card-text{
+  text-align: center;
+}
+.why-us-heading{
+  text-align: center;
+  padding: 50px 50px 50px 50px;
+
+}
+.why-us-design{
+  padding: 10px 10px 80px 10px;
+  text-align: center;
+
+}
+.img1-txt{
+  text-align: center;
+}
+#contact{
+  padding:50px 50px 50px 50px;
+  background-color: #011e11;
+}
+.contact-heading{
+  color: #12ff46;
+  line-height: 2;
+}
+.contact-footer{
+padding-top: 30px;
+}
+.footer-txt{
+    line-height: 1.2;
+    color:#12ff46;
+}
